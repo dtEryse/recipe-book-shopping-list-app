@@ -4,12 +4,15 @@
     <hr>
     <ul class="list-group">
       <!--TODO fix this HTML error-->
-      <a
-        class="list-group-item"
-        style="cursor: pointer;"
-        *ngFor="let ingredient of ingredients">
-        {{ ingredient.name }} ({{ ingredient.amount }})
-      </a>
+      <!--<li>-->
+        <a
+          class="list-group-item"
+          style="cursor: pointer;"
+          *ngFor="let ingredient of ingredients">
+          {{ ingredient.name }} ({{ ingredient.amount }})
+        </a>
+      <!--</li>-->
+
     </ul>
   </div>
 </div>
