@@ -23,7 +23,7 @@
       </button>
       <ul class="dropdown-menu">
         <li>
-          <a href="#">Add to Shopping List</a>
+          <a (click)="onAddToShoppingList()" style="cursor: pointer;">Add to Shopping List</a>
         </li>
         <li>
           <a href="#">Edit Recipe</a>
@@ -38,7 +38,7 @@
 <div class="row">
   <div class="col-xs-12">
     <!--Description-->
-    <p> {{ recipe.description }}</p>
+    <p class="text-center"> {{ recipe.description }}</p>
   </div>
 </div>
 <div class="row">
