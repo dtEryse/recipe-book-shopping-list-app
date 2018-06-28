@@ -1,3 +1,9 @@
 img {
   border-radius: 50%;
 }
+a {
+  color: dimgrey;
+}
+a:hover {
+  color: chocolate;
+}
